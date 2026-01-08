@@ -9,8 +9,8 @@ Bu React uygulaması, kullanıcıdan şehir adı alarak Open-Meteo API üzerinde
 
 ## Nasıl Çalıştırılır
 1. Projeyi klonlayın ve dizine girin:  
-   `git clone <repo-linki>`  
-   `cd <proje-dizini>`
+   `git clone <https://github.com/HarenEmpire/Final-React.git>`  
+   `cd <Final-React>`
 
 2. Bağımlılıkları yükleyin:  
    `npm install`
