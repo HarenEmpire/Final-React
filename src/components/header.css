@@ -1,0 +1,45 @@
+.header {
+    width: 100%;
+    padding: 2rem 1rem;
+    text-align: center;
+
+    background: linear-gradient(to right,
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.5));
+
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.header p {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.header-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 10px;
+    display: block;
+
+    animation: spin 5s linear infinite;
+    transform-style: preserve-3d;
+}
+
+@keyframes spin {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
